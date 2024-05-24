@@ -1,0 +1,141 @@
+{% extends "base.html" %}
+{% block title %}Contact{% endblock title %}
+{% block body %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - [Your Store Name]</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      color: #333;
+      text-align: center;
+    }
+    p {
+      line-height: 1.6;
+    }
+    .mission {
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+    .mission h3 {
+      margin-top: 0;
+      color: #333;
+    }
+    .mission ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .mission li {
+      margin-bottom: 10px;
+    }
+    .story {
+      margin-top: 20px;
+    }
+    .story p {
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>About Us</h2>
+  <p>Welcome to <strong>[Your Store Name]</strong>, your ultimate destination for fashion-forward clothing and accessories. At <strong>[Your Store Name]</strong>, we believe that style should be accessible to everyone, which is why we offer a wide range of trendy and affordable apparel for men, women, and kids.</p>
+
+  <div class="mission">
+    <h3>Our Mission</h3>
+    <p>Our mission is to empower individuals to express their unique style through fashion. We curate our collection with care, ensuring that each piece reflects the latest trends and meets our standards of quality and comfort.</p>
+    <h3>Why Choose Us?</h3>
+    <ul>
+      <li><strong>Fashion for Everyone:</strong> Whether you're a trendsetter or a classic dresser, we have something for you. Our diverse range of styles caters to all tastes and preferences.</li>
+      <li><strong>Quality Guaranteed:</strong> We source our products from trusted suppliers to ensure that every item meets our high-quality standards. From fabric to stitching, we pay attention to every detail.</li>
+      <li><strong>Affordable Prices:</strong> Looking good shouldn't break the bank. We offer competitive prices without compromising on style or quality.</li>
+      <li><strong>Exceptional Service:</strong> Our dedicated team is here to assist you every step of the way. From browsing to checkout, we strive to provide a seamless shopping experience.</li>
+      <li><strong>Fast Shipping:</strong> We understand that waiting for your order can be frustrating. That's why we offer fast and reliable shipping options to get your purchases to you as quickly as possible.</li>
+    </ul>
+  </div>
+
+  <div class="story">
+    <h3>Our Story</h3>
+    <p><strong>[Your Store Name]</strong> was founded with a simple yet ambitious goal: to make fashion accessible to all. What started as a small venture has now grown into a thriving online community of fashion enthusiasts. We are grateful for the support of our loyal customers and are committed to continuing our journey of style and innovation.</p>
+    <p>Thank you for choosing <strong>[Your Store Name]</strong>. We look forward to helping you look and feel your best, one outfit at a time.</p>
+  </div>
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Icons</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 0;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .icon {
+            margin: 0 10px;
+            width: 48px;
+            height: 48px;
+            fill: #000;
+            transition: fill 0.3s;
+            background-size: cover;
+        }
+        .icon:hover {
+            fill: #1DA1F2; /* Twitter blue color */
+        }
+        .linkedin {
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png');
+        }
+        .twitter {
+            background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/220px-Twitter_bird_logo_2012.svg.png');
+        }
+        .github {
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg');
+        }
+    </style>
+</head>
+<body>
+    <footer class="footer">
+        <a href="https://www.linkedin.com/in/rappy666a22/" class="icon linkedin"></a>
+
+        <a href="https://github.com/Rupesh1666" class="icon github"></a>
+        
+    </footer>
+</body>
+</html>
+
+{% endblock body %}
